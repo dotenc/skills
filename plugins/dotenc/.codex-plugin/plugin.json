@@ -1,6 +1,6 @@
 {
   "name": "dotenc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Operate Git-native encrypted environments with the dotenc CLI.",
   "author": {
     "name": "dotenc",
@@ -20,8 +20,9 @@
       "Set up dotenc in this repository.",
       "Run my tests with the development environment."
     ],
-    "logo": "./assets/logo.svg",
-    "composerIcon": "./assets/icon.svg"
+    "logo": "./assets/logo-modern.png",
+    "composerIcon": "./assets/logo-modern.png",
+    "brandColor": "#155EEF"
   },
   "homepage": "https://dotenc.org",
   "repository": "https://github.com/dotenc/skills",

@@ -31,6 +31,9 @@ This repository contains the official agent-agnostic skills for dotenc.
   or MCP configuration. Explain CLI and execution-environment prerequisites.
 - Version the plugin manifest independently from the CLI. Validate documented
   workflows against the published CLI, not local unreleased changes.
+- Check plugin branding on light and dark backgrounds and at small icon sizes.
+  External image assets must define their own colors rather than rely on
+  inheriting `currentColor` from the host interface.
 
 ## Validation
 
