@@ -1,0 +1,35 @@
+{
+  "name": "dotenc",
+  "version": "0.1.0",
+  "description": "Operate Git-native encrypted environments with the dotenc CLI.",
+  "author": {
+    "name": "dotenc",
+    "url": "https://github.com/dotenc"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "dotenc",
+    "shortDescription": "Encrypted environments, powered by your SSH keys.",
+    "longDescription": "Use the dotenc CLI to initialize projects, diagnose environment access, manage recipients, and run authorized commands with encrypted environments. Requires an installed dotenc CLI and access to the target repository and authorized identity. Skills only; no hosted service, MCP server, or bundled CLI.",
+    "developerName": "dotenc",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://dotenc.org",
+    "defaultPrompt": [
+      "Check this project with dotenc doctor.",
+      "Set up dotenc in this repository.",
+      "Run my tests with the development environment."
+    ],
+    "logo": "./assets/logo.svg",
+    "composerIcon": "./assets/icon.svg"
+  },
+  "homepage": "https://dotenc.org",
+  "repository": "https://github.com/dotenc/skills",
+  "license": "MIT",
+  "keywords": [
+    "dotenc",
+    "encrypted-environments",
+    "ssh",
+    "developer-tools"
+  ]
+}

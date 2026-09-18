@@ -1,0 +1,10 @@
+{
+  "name": "dotenc-skills",
+  "private": true,
+  "scripts": {
+    "build": "bun scripts/build-plugin.ts",
+    "check": "bun scripts/build-plugin.ts --check",
+    "test": "bun test --isolate tests",
+    "test:cli": "bun scripts/smoke-cli.ts"
+  }
+}

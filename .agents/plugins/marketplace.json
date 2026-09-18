@@ -1,0 +1,20 @@
+{
+  "name": "dotenc",
+  "interface": {
+    "displayName": "Dotenc"
+  },
+  "plugins": [
+    {
+      "name": "dotenc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dotenc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
