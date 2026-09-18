@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dotenc logo preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px system-ui; background: #e9edf5; }
+    main { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); min-height: 100vh; }
+    section { padding: 48px; background: white; color: #17213a; }
+    .dark { background: #10141e; color: #f7f8fc; }
+    h1 { font-size: 24px; margin: 0 0 32px; }
+    .large { width: 220px; max-width: 100%; height: auto; margin-bottom: 40px; }
+    .sizes { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }
+    .tile { display: flex; align-items: center; gap: 14px; padding: 16px; border: 1px solid #a3b1ca44; border-radius: 14px; margin-top: 32px; }
+    .tile img { width: 40px; height: 40px; }
+    .subtitle { opacity: .65; font-size: 13px; margin-top: 4px; }
+    small { display: block; opacity: .65; margin-top: 8px; }
+    @media (max-width: 720px) {
+      main { grid-template-columns: 1fr; }
+      section { padding: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="">
+      <h1>Light background</h1>
+      <img class="large" src="../plugins/dotenc/assets/logo-modern.png" alt="dotenc brackets and dot logo">
+      <div class="sizes">
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="24" height="24" alt="dotenc at 24 pixels"><small>24px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="32" height="32" alt="dotenc at 32 pixels"><small>32px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="48" height="48" alt="dotenc at 48 pixels"><small>48px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="64" height="64" alt="dotenc at 64 pixels"><small>64px</small></div>
+      </div>
+      <div class="tile">
+        <img src="../plugins/dotenc/assets/logo-modern.png" alt="">
+        <div>dotenc<div class="subtitle">Encrypted environments, powered by your SSH keys.</div></div>
+      </div>
+    </section>
+    <section class="dark">
+      <h1>Dark background</h1>
+      <img class="large" src="../plugins/dotenc/assets/logo-modern.png" alt="dotenc brackets and dot logo">
+      <div class="sizes">
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="24" height="24" alt="dotenc at 24 pixels"><small>24px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="32" height="32" alt="dotenc at 32 pixels"><small>32px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="48" height="48" alt="dotenc at 48 pixels"><small>48px</small></div>
+        <div><img src="../plugins/dotenc/assets/logo-modern.png" width="64" height="64" alt="dotenc at 64 pixels"><small>64px</small></div>
+      </div>
+      <div class="tile">
+        <img src="../plugins/dotenc/assets/logo-modern.png" alt="">
+        <div>dotenc<div class="subtitle">Encrypted environments, powered by your SSH keys.</div></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
