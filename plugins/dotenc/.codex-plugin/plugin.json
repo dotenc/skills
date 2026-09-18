@@ -20,7 +20,7 @@
       "Set up dotenc in this repository.",
       "Run my tests with the development environment."
     ],
-    "logo": "./assets/logo.png",
+    "logo": "./assets/logo.svg",
     "composerIcon": "./assets/icon.svg"
   },
   "homepage": "https://dotenc.org",
